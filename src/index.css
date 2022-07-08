@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Backgounrd*/
+.backgd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.clearSky{
+  background: url(./img/portada_genshin-impact-122.jpg) ;
+}
+
+
+.insidecard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 40%;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.rain{
+  background: url(./img/lluvianime.jpg) ;
+}
+
+.snowImage{
+background-color: azure;
+}
+
+.sunImage{
+background-color: blueviolet;
+}
+
+.backgd {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*CardWeather*/
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+}
+
+
